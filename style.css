@@ -65,6 +65,11 @@ header{
     border-radius: 5px;
     align-self: center;
 }
+.header-btn:hover{
+    color: #FF900E;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 5px;
+}
 .header-image img{
     width: 1100px;
     height: 550px;
@@ -124,6 +129,11 @@ header{
     border-radius: 5px;
     align-self: center;
 }
+.container-btn:hover{
+    color: #FF900E;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 5px;
+}
 
 /* Container main styles */
 .container-main{
@@ -169,11 +179,23 @@ header{
     line-height: 20px;
     text-align: justify;
 }
-.desktop-mobile,.drug-drop,.awesome-modern-design,.easy-to-edit{
+.desktop-mobile,.drug-drop,.awesome-modern-design{
     padding: 5px;
     margin-bottom: 20px;
     box-shadow: 0px 4px 30px rgba(0,0,0,0.06);
     border-radius: 8px;
+}
+.desktop-mobile:hover{
+    background-color: rgb(245, 185, 195);
+    box-shadow: 3px 3px 6px;
+}
+.drug-drop:hover{
+    background-color: rgb(245, 185, 195);
+    box-shadow: 3px 3px 6px;
+}
+.awesome-modern-design:hover{
+    background-color: rgb(245, 185, 195);
+    box-shadow: 3px 3px 6px;
 }
 .exp-btn{
     background-color: #FF900E;
@@ -181,6 +203,10 @@ header{
     width: 190px;
     height: 120px;
     border: none;
+}
+.exp-btn:hover{
+    background-color: cornflowerblue;
+    box-shadow: 3px 3px 5px;
 }
 .exp-year{
     color: #FFFFFF;
@@ -202,7 +228,7 @@ header{
 .experience-button{
     position: absolute;
     z-index: 1;
-    left: 650px;
+    left: 675px;
     top: 2770px;
 }
 /* Container Bottom Styles */
@@ -227,7 +253,26 @@ header{
     border: 1px solid #FF900E;
     margin-left: 100px;
     background-color: #FFFFFF;
+    border-radius: 5px;
 }
+.awards:hover{
+    background-color:rgb(211, 154, 154);
+    box-shadow: 5px 8px 10px;
+}
+.projects:hover{
+    background-color:rgb(211, 154, 154);
+    box-shadow: 5px 8px 10px;
+}
+.clients:hover{
+    background-color:rgb(211, 154, 154);
+    box-shadow: 5px 8px 10px;
+}
+.email:hover{
+    background-color:rgb(211, 154, 154);
+    box-shadow: 5px 8px 10px;
+}
+
+
 .facts-btn-info{
     color: #424242;
     padding-top: 15px;
@@ -267,27 +312,92 @@ header{
     height: 50px;
     filter: grayscale(100%);
 }
+.spotify-icon:hover{
+    background-color: aqua;
+    border-radius: 5px;
+}
 .amazon-icon{
     width: 120px;
     height: 40px;
     filter: grayscale(100%);
+}
+.amazon-icon:hover{
+    background-color: aqua;
+    border-radius: 5px;
 }
 .google-icon{
     width: 120px;
     height: 40px;
     filter: grayscale(100%);
 }
+.google-icon:hover{
+    background-color: aqua;
+    border-radius: 5px;
+}
 .telerama-icon{
     width: 120px;
     height: 40px;
     filter: grayscale(100%);
+}
+.telerama-icon:hover{
+    background-color: aqua;
+    border-radius: 5px;
 }
 .figma-icon{
     width: 130px;
     height: 40px;
     filter: grayscale(100%);
 }
-
+.figma-icon:hover{
+    background-color: aqua;
+    border-radius: 5px;
+}
+/* Top Language section style */
+.language{
+    margin-top: 150px;
+    text-align: center;
+}
+.lan-desc{
+    color: #727272;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 60px;
+    padding-left: 100px;
+    padding-right: 90px;
+    padding-top: 20px;
+}
+.lan-icon{
+    display: flex;
+    margin-bottom: 150px;
+}
+.fa-brands{
+    font-size: 30px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.fa-square-js{
+    width: 50px;
+    padding-left: 50px;
+}
+.html:hover{
+    background-color: orangered;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+.css:hover{
+    background-color: orangered;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+.javascript:hover{
+    background-color: orangered;
+    color: #FFFFFF;
+    border-radius: 5px;
+}.python:hover{
+    background-color: orangered;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
 /* Footer style */
 .copyright{
     margin-left: 130px;
@@ -298,3 +408,4 @@ header{
     color: #424242;
     text-align: center;
     padding-top: 15px;
+}
