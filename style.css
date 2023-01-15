@@ -79,31 +79,116 @@ header{
     
 }
 
+/* Responsive-header */
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.header-nav{
+    display: block;
+    padding-top: 5px;
+}
+.nav-title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.nav-sections{
+    display: flex;
+    flex-direction: column;
+}
+.nav-sections a{
+    color: #424242;
+    text-decoration: none;
+    font-weight: 500;
+    width: 100%;
+}
+.nav-sections a:hover{
+    text-decoration: underline;
+}
+.nav-about{
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.nav-login{
+    padding-left: 10px;
+}
+.nav-home{
+    padding-left: 10px;
+}
+.nav-contact{
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+.header-title{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 100px;
+}
+.header-disc{
+    font-size: 14px;
+    text-align: left;
+    line-height: 25px;
+    padding-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.header-button{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-left: 10px;
+}
+.header-btn{
+    width: 120px;
+    height: 45px;
+    color: #FFFFFF;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+}
+.header-btn:hover{
+    color: #FF900E;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 5px;
+}
+.header-image img{
+    width: 100%;
+    height: 250px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-bottom: 50px;
+}
+
 /* main styles */
 
 /* container top styles */
 .container-top{
     display: flex;
-    justify-content: space-between;
-    padding-bottom: 200px;
+    flex-direction: column;
+    padding-bottom: 100px;
 }
 .teamwork-images{
-    padding-right: 30px;
+    padding-right: 10px;
     margin-top: 50px;
     display:inline-grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 20px;
-    margin-left: 100px;
+    margin-left: 10px;
 }
 .container-top-details{
-    margin-right: 90px;
-    margin-left: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 .container-top-title{
     font-size: 25px;
     font-weight: 500;
-    margin-top: 300px;
+    margin-top: 100px;
 }
 .quick-list{
     color: #727272;
@@ -137,18 +222,19 @@ header{
 
 /* Container main styles */
 .container-main{
-    margin-left: 100px;
-    margin-right: 90px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-bottom: 180px;
 }
 .container-sec{    
     display: flex;
+    flex-direction: column;
 }
 .container-main-details{
-    margin-right: 80px;
+    margin-right: 10px;
 }
 .container-main-title{
-    padding-right: 180px;
+    padding-right: 10px;
     font-size: 26px;
     color: #131313;
     font-weight: 700;
@@ -165,7 +251,7 @@ header{
     text-align: justify;
 }
 .container-main-image img{
-    width: 500px;
+    width: 100%;
 }
 .features-title{
     color: #131313;
@@ -174,7 +260,7 @@ header{
 }
 .features-disc{
     color: #727272;
-    padding-left: 30px;
+    padding-left: 10px;
     margin-bottom: 15px;
     line-height: 20px;
     text-align: justify;
@@ -233,8 +319,8 @@ header{
 }
 /* Container Bottom Styles */
 .container-bottom{
-    margin-left: 100px;
-    margin-right: 90px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .facts-title{
     color: #131313;
@@ -245,13 +331,13 @@ header{
     color: #727272;
     margin-top: 20px;
     line-height: 20px;
-    margin-bottom: 150px;
+    margin-bottom: 80px;
 }
 .awards,.projects,.clients,.email{
     width: 150px;
     height: 150px;
     border: 1px solid #FF900E;
-    margin-left: 100px;
+    margin-left: 10px;
     background-color: #FFFFFF;
     border-radius: 5px;
 }
@@ -287,7 +373,9 @@ header{
 /* sponsors style */
 .sponsors{
     margin-top: 150px;
-    text-align: center;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .spon-title{
     color: #131313;
@@ -303,14 +391,16 @@ header{
 }
 .spon-icon{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    flex-direction: column;
+    text-align: left;
     margin-bottom: 150px;
 }
 .spotify-icon{
     width: 130px;
     height: 50px;
     filter: grayscale(100%);
+    margin-left: 10px;
+    margin-bottom: 40px;
 }
 .spotify-icon:hover{
     background-color: aqua;
@@ -320,6 +410,8 @@ header{
     width: 120px;
     height: 40px;
     filter: grayscale(100%);
+    margin-left: 10px;
+    margin-bottom: 40px;
 }
 .amazon-icon:hover{
     background-color: aqua;
@@ -329,6 +421,8 @@ header{
     width: 120px;
     height: 40px;
     filter: grayscale(100%);
+    margin-left: 10px;
+    margin-bottom: 40px;
 }
 .google-icon:hover{
     background-color: aqua;
@@ -338,6 +432,8 @@ header{
     width: 120px;
     height: 40px;
     filter: grayscale(100%);
+    margin-left: 10px;
+    margin-bottom: 40px;
 }
 .telerama-icon:hover{
     background-color: aqua;
@@ -347,6 +443,7 @@ header{
     width: 130px;
     height: 40px;
     filter: grayscale(100%);
+    margin-left: 10px;
 }
 .figma-icon:hover{
     background-color: aqua;
@@ -354,30 +451,44 @@ header{
 }
 /* Top Language section style */
 .language{
-    margin-top: 150px;
-    text-align: center;
+    margin-top: 80px;
+    text-align: justify;
 }
 .lan-desc{
     color: #727272;
     font-size: 14px;
     line-height: 20px;
     margin-bottom: 60px;
-    padding-left: 100px;
-    padding-right: 90px;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 20px;
 }
 .lan-icon{
-    display: flex;
-    margin-bottom: 150px;
+    display: block;
+    margin-bottom: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
-.fa-brands{
-    font-size: 30px;
-    padding-left: 20px;
-    padding-bottom: 10px;
+.html{
+    margin-bottom: 20px;
+}
+.css{
+    margin-bottom: 20px;
+}
+.javascript{
+    margin-bottom: 20px;
+}
+.fa-html5{
+    margin-left: 25px;
+}
+.fa-css3{
+    margin-left: 20px;
 }
 .fa-square-js{
-    width: 50px;
-    padding-left: 50px;
+    margin-left: 55px;
+}
+.fa-python{
+    margin-left: 40px;
 }
 .html:hover{
     background-color: orangered;
@@ -400,9 +511,9 @@ header{
 }
 /* Footer style */
 .copyright{
-    margin-left: 130px;
+    margin-left: 10px;
     height: 40px;
-    margin-right: 120px;
+    margin-right: 10px;
     margin-bottom: 100px;
     background-color: #FFF4E7;
     color: #424242;
